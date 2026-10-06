@@ -1,8 +1,11 @@
+import ClientHeading from "../components/client/ClientHeading"
+import ClientList from "../components/client/ClientList"
 
 const Clients = () => {
   return (
     <div>
-      <h1>Clients</h1>
+      <ClientHeading />
+      <ClientList />
     </div>
   )
 }

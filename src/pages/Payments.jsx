@@ -1,8 +1,11 @@
+import PaymentHeading from "../components/payment/PaymentHeading"
+import PaymentList from "../components/payment/PaymentList"
 
 const Payments = () => {
   return (
-    <div>
-      <h1>Payments</h1>
+    <div className="space-y-10">
+      <PaymentHeading />
+      <PaymentList />
     </div>
   )
 }
